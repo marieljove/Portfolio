@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+    <title>WebPage</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Sacramento&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="intro">
+        <h1> Welcome, &nbsp  <span id="usernameDisplay"></span>! </h1>
+        <h2>Choose whose profile you want to see.</h2>
+    </div>
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const username = params.get('username');
+        const usernameDisplay = document.getElementById('usernameDisplay');
+        if (username) {
+            usernameDisplay.textContent = username;
+        } else {
+            usernameDisplay.textContent = 'Guest'; 
+        }
+    </script>
+    <div class="profiles">
+        <div>
+            <a href="./shaniceProfile.html"><img src="./Images/shanice profile.png" width="300px" height="300px" class="img1"></a>
+            <h3 id="s">Shanice</h3>
+        </div>
+        <div class="space"></div>
+        <div>
+            <a href="./joveProfile.html"><img src="./Images/jove profile.png" width="300px" height="300px" class="img"></a> 
+            <h3 id="j">Jove</h3>
+        </div>
+    </div>
+</body>
+</html>

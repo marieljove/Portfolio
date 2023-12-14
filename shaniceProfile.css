@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font: bold;
+    background-size:cover;
+    
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(./Images/background.jpeg) no-repeat fixed center center; 
+}
+.box{
+    position: relative;
+    width: 950px;
+    height: 400px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+}
+.header{
+    display: flex;
+    margin: 40px;
+    justify-content: left;
+    text-align: center;
+    box-sizing: border-box;
+    color:  #ffffff;
+    font-size: larger;
+}
+#myIcon {
+    position: absolute;
+    top: 7.5px;
+    right: 10px;
+    width: 400px;
+    height: auto; 
+    z-index: 1; 
+}
+#greetings{
+    margin-top: 50px;
+    margin-left: -70px;
+    font-size: 20px;
+}
+#name{
+    display: flex;
+    margin-top: -30px;
+    margin-left: 40px;
+    justify-content: left;
+    text-align: center;
+    box-sizing: border-box;
+    color:  #ffffff;
+    font-size: 35px;
+}
+#cLevel{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 40px;
+    justify-content: left;
+    text-align: center;
+    box-sizing: border-box;
+    color:  #ffffff;
+    font-size: larger;
+}
+.details{
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 40px;
+    text-align: justify;
+    color:  #ffffff;
+}
+.socmed{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+img{
+    margin-left: 10px;
+    width: 40px;
+    height: auto;
+}
+.next{
+    position: absolute;
+    z-index: 1;
+    margin-top: 500px;
+    margin-left: 80%;
+    margin-right: -100px;
+}

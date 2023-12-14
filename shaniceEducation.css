@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font: bold;
+    background-size:cover;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(./Images/background.jpeg) no-repeat fixed center center; 
+}
+.box{
+    position: relative;
+    width: 1300px;
+    height: 610px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+}
+.header{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 40px;
+    justify-content: left;
+    text-align: center;
+    box-sizing: border-box;
+    color:  #ffffff;
+    font-size: larger;
+}
+#greetings{
+    margin-top: 30px;
+    margin-left: -125px;
+    font-size: 40px;
+}
+.details{
+    width: 50%;
+    text-align: justify;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.infoboxes{
+    margin-left: -5px;
+}
+.infobox{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 300px;
+    height: 365px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    background-color: rgba(228, 101, 203, 0.532);
+}
+#priEd {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 15px;
+    justify-content: center;
+    text-align: justify;
+    box-sizing: border-box;
+    color:  #ffffff;
+    font-size: large;
+}
+#nescp{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 50px ;
+    width: 210px;
+    height: auto;
+}
+#neslogo{
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 110px ;
+    width: 80px;
+    height: auto;
+}
+#school{
+    display: flex;
+    margin-left: 5px;
+    margin-top: 240px;
+    justify-content: center;
+    text-align: justify;
+    box-sizing: border-box;
+    color:  #ffffff;
+    font-size: large;
+}
+.years{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 15px;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    color:  #ffffff;
+    font-size: medium;
+}
+.infobox1{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 300px;
+    height: 365px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    background-color: rgba(240, 252, 101, 0.532);
+    
+}
+#mcnhscp{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 45px ;
+    width: 220px;
+    height: auto;
+}
+#mcnhslogo{
+    position: absolute;
+    margin-top: 155px;
+    margin-left: 110px ;
+    width: 95px;
+    height: auto;
+}
+#secEd{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 15px;
+    justify-content: center;
+    text-align: justify;
+    box-sizing: border-box;
+    color:  #ffffff;
+    font-size: large;
+}
+#hschool{
+    display: flex;
+    margin-left: 5px;
+    margin-top: 240px;
+    justify-content: center;
+    text-align: justify;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-size: medium;
+}
+.hyears{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 15px;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    color:   #ffffff;
+    font-size: medium;
+}
+.infobox2{
+    position: absolute;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 300px;
+    height: 365px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    background-color: #22fa6372;
+}
+#ccpsicp{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 45px ;
+    width: 220px;
+    height: auto;
+}
+#ccpsilogo{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 110px ;
+    width: 95px;
+    height: auto;
+}
+#shsEd{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 15px;
+    justify-content: center;
+    text-align: justify;
+    box-sizing: border-box;
+    color:  #ffffff;
+    font-size: large;
+}
+#shsschool{
+    display: flex;
+    margin-left: 5px;
+    margin-top: 240px;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-size: medium;
+}
+.shsyears{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 7px;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    color:   #ffffff;
+    font-size: medium;
+}
+.infobox3{
+    position: absolute;
+    display: inline-block;
+    margin-left: 340px;
+    margin-top: 30px;
+    width: 300px;
+    height: 365px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    background-color: #a41d2272;
+}
+#msuiitcp{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 45px ;
+    width: 220px;
+    height: auto;
+}
+#msuiitlogo{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 110px ;
+    width: 95px;
+    height: auto;
+}
+#terEd{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+    justify-content: center;
+    text-align: justify;
+    box-sizing: border-box;
+    color:  #ffffff;
+    font-size: large;
+}
+#college{
+    display: flex;
+    margin-left: 5px;
+    margin-top: 240px;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-size: medium;
+}
+.current{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 7px;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    color:   #ffffff;
+    font-size: medium;
+}
+.next{
+    position: absolute;
+    z-index: 1;
+    margin-top: 630px;
+    margin-left: 90%;
+    margin-right: -100px;
+}
+#arrow{
+    width: 30px;
+    height: auto;
+}
